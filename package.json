@@ -1,0 +1,31 @@
+{
+  "name": "INTRO-NIGHTWATCH",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "debug": "node --inspect-brk node_modules/nightwatch/bin/nightwatch",
+    "test": "nightwatch",
+    "test:vrt": "nightwatch -c nightwatch.vrt.conf.js",
+    "consolidate:vrt": "CONSOLIDATE=1 npm run test:vrt",
+    "test:cucumber": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^85.0.0",
+    "geckodriver": "^1.20.0",
+    "nightwatch": "^1.4.1"
+  },
+ "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "nightwatch-api": "^3.0.1",
+    "nightwatch-vrt": "^0.2.10"
+  },
+  "description": ""
+}

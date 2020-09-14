@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="vrt"
+    errors="0" failures="0" hostname="" id="" package="vrt" skipped="0"
+    tests="1" time="35.06" timestamp="">
+  
+    <testcase name="my first test case" classname="vrt" time="35.06" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
